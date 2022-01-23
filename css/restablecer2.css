@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(243, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width:150px;
+    height:150px;
+    display:block;
+    margin:40px auto 0px auto;
+}
+
+.formulario{
+    width:300px;
+    height:auto;
+    background-color: white;
+    margin:10px auto;
+    box-shadow:0px 1px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.formulario .container{
+    width:90%;
+}
+
+.formulario strong{
+    color: #04366e;
+    display:block;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom:10px;
+}
+.formulario label{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.formulario .principal{
+    background: rgb(243, 243, 243);
+    width:100%;
+    padding:5px;
+    border:none;
+    font-size:12px;
+}
+
+.formulario a{
+    font-size:10px;
+    color:rgb(20, 20, 100);
+}
+
+.formulario button{
+    background: transparent linear-gradient(233deg, #355473 0%, #212731 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 45px #34516F31;
+    border-radius: 6px;
+    color:white;
+    display:block;
+    width:50%;
+    margin:0 auto;
+    text-transform: uppercase;
+    font-size:10px;
+    padding: 5px 0px;
+    border:none;
+}
+
+span{
+    font-size:10px;
+    display:block;
+    text-align: center;
+    margin-top:10px;
+    padding-bottom:20px;
+}

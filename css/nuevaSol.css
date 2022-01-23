@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(243, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.aside{
+    height: 100vh;
+    width:300px;
+    background: #00204A 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: white;
+    height:140px;
+    margin-top:0px;
+}
+
+.logo{
+    width:120px;
+    height:120px;
+    background-color: WHITE;
+    display:block;
+    padding-top:30px;
+    margin:0px auto 0px auto;
+
+
+}
+.avatar {
+    border-radius: 50%;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    width: 35px;
+    margin-top:20px;
+    vertical-align: middle;
+}
+.aside ul {
+    list-style: none;
+    color:white;
+    
+}
+.aside li{
+    font-size: 15px;
+    margin-bottom:10px;
+    padding:8px;
+    cursor:pointer;
+}
+.aside li:hover{
+    background: #0174B7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 16px #47A3D948;
+    border-radius: 7px;
+    opacity: 1;
+    padding:8px;
+    transition: all 0.5s ease-out;
+}
+.aside li:hover:first-child{
+    background:none;
+    box-shadow: none;
+}
+.aside li i{
+    font-size:20px;
+    margin-right:8px;
+}
+.aside ul .saludo {
+    display:inline-block;
+    vertical-align:top;
+    padding-top:24px;
+    margin-left:15px;
+    
+}
+.nueva-solicitud{
+    margin-top:120px;
+}
+
+
+#content{
+    overflow-y: auto;
+    height:100vh;
+}
+.icon-menu{
+    width:40px;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top:12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left:20px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-user{
+    margin-right:20px;
+    color:gray;
+}
+
+.tarjeta{
+    width:92%;
+    height:auto;
+    margin:0 auto;
+    margin-top:60px;
+    position:relative;
+    padding-bottom:20px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 26px #0000001A;
+border: 1px solid #C9C9C9;
+border-radius: 10px;
+opacity: 1;
+}
+
+.mini-tarjeta{
+    width:200px;
+    height:40px; 
+    color:white;
+    position:absolute;
+    left:15px;
+    top:-20px;
+    text-align:center;
+    padding-top:10px;
+    font-size:0.8em;
+    font-weight:700;
+    background: transparent linear-gradient(74deg, #53D875 0%, #51D674 2%, #019334 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 14px #3EC6658E;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.container{
+    width:80%;
+}
+
+#container-aside{
+    display:block;
+    width:90%;
+    margin:0 auto;
+    padding:0;
+}
+.container p{
+    text-align:center;
+    font-weight: 600;
+}
+
+.container h1, h2{
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size:1.5rem;
+}
+
+.formulario label{
+    font-size:12px;
+    font-weight:600;
+}
+.formulario input, .formulario select{
+    border:none;
+    border-bottom: 1px solid grey ;
+    outline: none;
+    width:80%;
+    font-size:15px;
+    color:black;
+}
+@media only screen and (max-width: 767px) {
+       .solicitud{
+           display:block;
+           width:100%;
+           margin-top:150px;
+       }
+     
+  }
+
+.alerta{
+    margin-left:9%;
+    color: grey;
+    font-size:12px;
+}
+
+.textarea{
+    border:none;
+    width:100%;
+    outline:none;
+    padding:10px;
+    background:rgb(230, 230, 230);
+    resize:none;
+    
+}
+
+.formulario button{
+    
+    display:block;
+    width:15%;
+    margin: 10px auto 10px auto;
+    text-transform: uppercase;
+    font-size:10px;
+    padding: 5px 0px;
+    border:none;
+    border-radius:6px;
+    font-weight: 700;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.zona-carga{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.btn-enviar{
+    background: transparent linear-gradient(233deg, #355473 0%, #212731 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 45px #34516F31;
+border-radius: 6px;
+    color:white;
+}
+.btn-vista{
+    background-color:white;
+    color:#04366e;
+    
+}
+.add{
+    vertical-align: middle;
+}
+
+.span-add{
+    margin-left:15px;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:18px;
+}
+.subir{
+    color:#055FFE;
+    font-size:100px;
+    
+}
+
+@media (max-width:768px){
+    .aside{
+        display:none;
+    }
+
+}

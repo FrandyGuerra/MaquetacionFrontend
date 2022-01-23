@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(243, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+
+.aside{
+    height: 100vh;
+    width:300px;
+    background: #00204A 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: white;
+    height:140px;
+    margin-top:0px;
+}
+
+.logo{
+    width:120px;
+    height:120px;
+    background-color: WHITE;
+    display:block;
+    padding-top:30px;
+    margin:0px auto 0px auto;
+
+
+}
+.avatar {
+    border-radius: 50%;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    width: 35px;
+    margin-top:20px;
+    vertical-align: middle;
+}
+.aside ul {
+    list-style: none;
+    color:white;
+    
+}
+.aside li{
+    font-size: 15px;
+    margin-bottom:10px;
+    padding:8px;
+    cursor:pointer;
+}
+.aside li:hover{
+    background: #0174B7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 16px #47A3D948;
+    border-radius: 7px;
+    opacity: 1;
+    padding:8px;
+    transition: all 0.5s ease-out;
+}
+.aside li:hover:first-child{
+    background:none;
+    box-shadow: none;
+}
+.aside li i{
+    font-size:20px;
+    margin-right:8px;
+}
+.aside ul .saludo {
+    margin-left:15px;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:24px;
+    
+}
+.nueva-solicitud{
+    margin-top:120px;
+}
+
+#content{
+    overflow-y: auto;
+    height:100vh;
+}
+
+
+.icon-menu{
+    width:40px;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top:12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left:20px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-user{
+    margin-right:20px;
+    color:gray;
+}
+
+.tarjeta{
+    width:100%;
+    height:120px;
+    margin:0 auto;
+    margin-top:60px;
+    position:relative;
+    border-radius: 1px solid gray;
+    padding-bottom:20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 13px 26px #0000000F;
+border-radius: 9px;
+opacity: 1;
+}
+
+.mini-tarjeta{
+    width:80px;
+    height:60px;
+    color:white;
+    border-radius:11px;
+    position:absolute;
+    left:15px;
+    top:-20px;
+    text-align:center;
+    padding-top:5px;
+    font-size:2em;
+    font-weight:100;
+    
+}
+
+.mini-tarjeta--naranja{
+    background: transparent linear-gradient(48deg, #FCA718 0%, #FF8700 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 21px #EED4B2;
+
+opacity: 1;
+}
+
+.mini-tarjeta--azulclaro{
+    background: transparent linear-gradient(48deg, #00C7DB 0%, #00B0C5 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 21px #00B8CD55;
+    opacity: 1;
+}
+
+.mini-tarjeta--azuloscuro{
+    background:	transparent linear-gradient(48deg, #0174B7 0%, #00204A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 21px #0162A050;
+    opacity: 1;
+}
+
+.mini-tarjeta--verde{
+    background: transparent linear-gradient(48deg, #53D875 0%, #51D674 2%, #019334 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 21px #3EC6658E;
+    opacity: 1;
+    
+}
+.mini-tarjeta--grafica{
+    background: transparent linear-gradient(48deg, #0F164F 0%, #102296 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.texto{
+    text-align: right;
+    margin-right:20px;
+    padding-top:10px;
+    margin-bottom:0px;
+
+
+}
+.numero{
+    display:block;
+    text-align:right;
+    margin-right:20px;
+    font-size:25px;
+    font-weight:100;
+    padding-top: 0;
+
+}
+
+small{
+    font-size: 12px;
+    margin-left:20px;
+    color:rgb(255, 191, 0);
+    font-weight: 700;
+    display:block;
+    padding-top:15px;
+}
+
+.quejas{
+    font-size: 12px;
+    margin-left:20px;
+    color:rgb(0, 191, 255);
+    font-weight: 700;
+    display:block;
+    padding-top:5px;
+    text-align:center;
+    line-height: 1.2;
+
+}
+.casoslistos{
+    font-size: 12px;
+    margin-left:20px;
+    color:#000066;
+    font-weight: 700;
+    display:block;
+    padding-top:5px;
+    text-align:center;
+    line-height: 1.2;
+
+}
+
+.crearqueja{
+    text-decoration:none;
+    color:green;
+    font-weight: 700;
+    margin-left:50px;
+    display:block;
+    padding-top:60px;
+    font-size:20px;
+   
+}
+.crearqueja:hover{
+    color:green;
+}
+
+.grafica{
+    height: 300px;
+}
+
+.text-grafica{
+    margin-left:110px;
+    padding-top:10px;
+    color:#001a66;
+    font-weight:700;
+}
+
+.enlace{
+    text-decoration:none;
+}
+
+
+@media (max-width:768px){
+    .aside{
+        display:none;
+    }
+
+}
